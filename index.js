@@ -29,12 +29,12 @@ import "./index.css";
 // }
 
 
-const firstbook={
+const book1={
     img: "https://images-eu.ssl-images-amazon.com/images/I/71aFt4%2BOTOL._AC_UL200_SR200,200_.jpg",
       title: "The Alchemist",
       author: "Paulo Coelho",
 };
-const secondbook={
+const book2={
     img: "https://images-eu.ssl-images-amazon.com/images/I/81l3rZK4lnL._AC_UL200_SR200,200_.jpg",
   title: "Ikigai: The Japanese secret to a long and happy life",
   author: "Héctor García",
@@ -44,13 +44,13 @@ function BookList (){
     return (
         <section className="booklist">
             <Book
-             img={firstbook.img}
-             title={firstbook.title} 
-             author={firstbook.author}></Book>
+             img={book1.img}
+             title={book1.title} 
+             author={book1.author}></Book>
             <Book 
-            img={secondbook.img} 
-            title={secondbook.title} 
-            author={secondbook.author}></Book>
+            img={book2.img} 
+            title={book2.title} 
+            author={book2.author}></Book>
         </section>
     );
 }
